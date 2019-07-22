@@ -67,5 +67,7 @@
 		<dependency org="org.slf4j" name="slf4j-simple" rev="1.8.0-beta2" conf="supporters->default" />
 		
 		<dependency org="org.mapstruct" name="mapstruct-processor" rev="1.3.0.Beta1" conf="moduleBuild->default" />
+
+		<dependency org="org.springframework" name="spring-context" rev="5.1.5.RELEASE" conf="eclipseBuild->default; contrib->sources" />
 	</dependencies>
 </ivy-module>
